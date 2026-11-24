@@ -1,0 +1,601 @@
+{
+  "organizations": [
+    {
+      "name": "Indian Space Research Organisation",
+      "slug": "isro",
+      "org_type": "agency",
+      "focus_area": "Space Exploration & Launch Systems",
+      "is_startup": false,
+      "founded_year": 1969,
+      "headquarters": "Antariksh Bhavan, Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Government Agency",
+      "website": "https://www.isro.gov.in",
+      "description": "National space agency of India under the Department of Space, responsible for launch vehicles, satellite missions, and human spaceflight."
+    },
+    {
+      "name": "NewSpace India Limited",
+      "slug": "nsil",
+      "org_type": "psu",
+      "focus_area": "Commercial Launch & Satellite Services",
+      "is_startup": false,
+      "founded_year": 2019,
+      "headquarters": "Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Government PSU",
+      "website": "https://www.nsilindia.co.in",
+      "description": "Commercial arm of ISRO enabling Indian industry participation and international commercial launches on PSLV, SSLV, and LVM3."
+    },
+    {
+      "name": "Skyroot Aerospace",
+      "slug": "skyroot-aerospace",
+      "org_type": "startup",
+      "focus_area": "Launch Vehicles",
+      "is_startup": true,
+      "founded_year": 2018,
+      "headquarters": "Max-Q Campus, Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "funding_stage": "Series B",
+      "website": "https://www.skyroot.in",
+      "description": "Private aerospace manufacturer developing the Vikram series of small-lift launch vehicles; launched India's first private rocket, Vikram-S."
+    },
+    {
+      "name": "Agnikul Cosmos",
+      "slug": "agnikul-cosmos",
+      "org_type": "startup",
+      "focus_area": "Launch Vehicles",
+      "is_startup": true,
+      "founded_year": 2017,
+      "headquarters": "IIT Madras Research Park, Chennai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "funding_stage": "Series B",
+      "website": "https://www.agnikul.in",
+      "description": "Developer of the customizable Agnibaan orbital launch vehicle powered by 3D-printed semi-cryogenic Agnilet engines and India's first private launchpad at SHAR."
+    },
+    {
+      "name": "Pixxel",
+      "slug": "pixxel",
+      "org_type": "startup",
+      "focus_area": "Earth Observation",
+      "is_startup": true,
+      "founded_year": 2019,
+      "headquarters": "Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Series B",
+      "website": "https://www.pixxel.space",
+      "description": "Space data company building a constellation of high-resolution hyperspectral Earth observation satellites (Firefly & Honeybee)."
+    },
+    {
+      "name": "Bellatrix Aerospace",
+      "slug": "bellatrix-aerospace",
+      "org_type": "startup",
+      "focus_area": "In-Space Propulsion",
+      "is_startup": true,
+      "founded_year": 2015,
+      "headquarters": "Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Series A",
+      "website": "https://www.bellatrixaerospace.com",
+      "description": "In-space propulsion and orbital transfer vehicle (OTV) company developing green monopropellant, Hall-effect, and microwave plasma thrusters."
+    },
+    {
+      "name": "Dhruva Space",
+      "slug": "dhruva-space",
+      "org_type": "startup",
+      "focus_area": "Satellite Platforms",
+      "is_startup": true,
+      "founded_year": 2012,
+      "headquarters": "Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "funding_stage": "Series A",
+      "website": "https://www.dhruvaspace.com",
+      "description": "Full-stack space engineering company providing modular satellite platforms, orbital deployers, and Ground Station-as-a-Service (GSaaS)."
+    },
+    {
+      "name": "Digantara",
+      "slug": "digantara",
+      "org_type": "startup",
+      "focus_area": "Space Situational Awareness",
+      "is_startup": true,
+      "founded_year": 2018,
+      "headquarters": "Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Series A1",
+      "website": "https://www.digantara.co.in",
+      "description": "Space situational awareness (SSA) startup deploying space-based electro-optical sensors to track orbital debris and resident space objects."
+    },
+    {
+      "name": "GalaxEye",
+      "slug": "galaxeye",
+      "org_type": "startup",
+      "focus_area": "Earth Observation",
+      "is_startup": true,
+      "founded_year": 2021,
+      "headquarters": "Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "funding_stage": "Series A",
+      "website": "https://www.galaxeye.space",
+      "description": "Multi-sensor imaging startup combining Synthetic Aperture Radar (SAR) and optical payloads on the Drishti satellite mission for all-weather Earth observation."
+    }
+  ],
+  "launch_vehicles": [
+    {
+      "name": "PSLV",
+      "slug": "pslv",
+      "organization_slug": "isro",
+      "status": "Operational",
+      "stages": 4,
+      "height_m": 44.0,
+      "liftoff_mass_tonnes": 320.0,
+      "leo_payload_kg": 3800,
+      "gto_payload_kg": 1425,
+      "sso_payload_kg": 1750,
+      "first_flight_date": "1993-09-20",
+      "total_launches": 62,
+      "successful_launches": 59,
+      "description": "Polar Satellite Launch Vehicle (PSLV), ISRO's workhorse 4-stage launcher alternating solid and liquid stages for SSO, LEO, and interplanetary missions."
+    },
+    {
+      "name": "GSLV Mk II",
+      "slug": "gslv-mk-ii",
+      "organization_slug": "isro",
+      "status": "Operational",
+      "stages": 3,
+      "height_m": 51.7,
+      "liftoff_mass_tonnes": 420.0,
+      "leo_payload_kg": 6000,
+      "gto_payload_kg": 2250,
+      "sso_payload_kg": 2500,
+      "first_flight_date": "2001-04-18",
+      "total_launches": 17,
+      "successful_launches": 11,
+      "description": "Geosynchronous Satellite Launch Vehicle Mk II featuring an indigenous cryogenic upper stage (CUS) for NVS navigation and communication payloads."
+    },
+    {
+      "name": "LVM3",
+      "slug": "lvm3",
+      "organization_slug": "isro",
+      "status": "Operational",
+      "stages": 3,
+      "height_m": 43.5,
+      "liftoff_mass_tonnes": 640.0,
+      "leo_payload_kg": 10000,
+      "gto_payload_kg": 4000,
+      "sso_payload_kg": 5000,
+      "first_flight_date": "2014-12-18",
+      "total_launches": 8,
+      "successful_launches": 8,
+      "description": "Launch Vehicle Mark-3 (formerly GSLV Mk III), India's heavy-lift rocket used for Chandrayaan-2, Chandrayaan-3, OneWeb, and human-rated HLVM3 Gaganyaan flights."
+    },
+    {
+      "name": "SSLV",
+      "slug": "sslv",
+      "organization_slug": "isro",
+      "status": "Operational",
+      "stages": 3,
+      "height_m": 34.0,
+      "liftoff_mass_tonnes": 120.0,
+      "leo_payload_kg": 500,
+      "gto_payload_kg": 0,
+      "sso_payload_kg": 300,
+      "first_flight_date": "2022-08-07",
+      "total_launches": 3,
+      "successful_launches": 2,
+      "description": "Small Satellite Launch Vehicle designed for rapid launch-on-demand deployment of mini, micro, and nanosatellites into 500 km planar and SSO orbits."
+    },
+    {
+      "name": "Vikram-1",
+      "slug": "vikram-1",
+      "organization_slug": "skyroot-aerospace",
+      "status": "In Development",
+      "stages": 4,
+      "height_m": 20.0,
+      "liftoff_mass_tonnes": 22.0,
+      "leo_payload_kg": 480,
+      "gto_payload_kg": 0,
+      "sso_payload_kg": 290,
+      "first_flight_date": null,
+      "total_launches": 0,
+      "successful_launches": 0,
+      "description": "All-carbon-composite 4-stage small satellite launch vehicle by Skyroot Aerospace featuring solid stages and Raman-1/2 liquid upper engines."
+    },
+    {
+      "name": "Agnibaan",
+      "slug": "agnibaan",
+      "organization_slug": "agnikul-cosmos",
+      "status": "In Development",
+      "stages": 2,
+      "height_m": 18.0,
+      "liftoff_mass_tonnes": 14.0,
+      "leo_payload_kg": 300,
+      "gto_payload_kg": 0,
+      "sso_payload_kg": 100,
+      "first_flight_date": null,
+      "total_launches": 1,
+      "successful_launches": 1,
+      "description": "Customizable 2-stage orbital rocket by Agnikul Cosmos powered by 3D-printed semi-cryogenic Agnilet engines; completed Agnibaan SOrTeD suborbital demonstrator."
+    }
+  ],
+  "missions": [
+    {
+      "mission_code": "GSLV-F18/NVS-03",
+      "name": "GSLV-F18 / NVS-03",
+      "program": "NavIC",
+      "status": "Upcoming",
+      "organization_slug": "isro",
+      "vehicle_slug": "gslv-mk-ii",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "GTO",
+      "launch_date_utc": "2026-12-18T09:15:00Z",
+      "is_crewed": false,
+      "summary": "Third second-generation NavIC navigation satellite (NVS-03) carrying L1, L5, and S-band navigation payloads with an indigenous Rubidium Atomic Frequency Standard.",
+      "payloads": [
+        {
+          "name": "NVS-03 (IRNSS-1L)",
+          "payload_type": "Navigation Satellite",
+          "mass_kg": 2250.0,
+          "orbit": "GTO -> GSO",
+          "customer": "ISRO",
+          "organization_slug": "isro",
+          "description": "Second-generation NavIC spacecraft enhancing regional positioning, navigation, and timing coverage over India and surrounding 1,500 km."
+        }
+      ]
+    },
+    {
+      "mission_code": "GSLV-F17/EOS-05",
+      "name": "GSLV-F17 / EOS-05 (GISAT-2)",
+      "program": "Earth Observation",
+      "status": "Upcoming",
+      "organization_slug": "isro",
+      "vehicle_slug": "gslv-mk-ii",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "GTO",
+      "launch_date_utc": "2027-01-24T04:30:00Z",
+      "is_crewed": false,
+      "summary": "Geo-imaging Earth observation satellite (EOS-05) providing near-real-time multi-spectral monitoring of the Indian landmass from geostationary orbit.",
+      "payloads": [
+        {
+          "name": "EOS-05 (GISAT-2)",
+          "payload_type": "Earth Observation",
+          "mass_kg": 2275.0,
+          "orbit": "GTO -> GEO",
+          "customer": "ISRO / Department of Space",
+          "organization_slug": "isro",
+          "description": "High-agility geostationary imaging spacecraft for disaster monitoring, agriculture, and coastal surveillance."
+        }
+      ]
+    },
+    {
+      "mission_code": "PSLV-C62/EOS-N1",
+      "name": "PSLV-C62 / EOS-N1",
+      "program": "Earth Observation",
+      "status": "Scheduled",
+      "organization_slug": "isro",
+      "vehicle_slug": "pslv",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "First Launch Pad (FLP)",
+      "orbit_type": "SSO",
+      "launch_date_utc": "2027-02-14T05:00:00Z",
+      "is_crewed": false,
+      "summary": "PSLV-XL configuration deploying the EOS-N1 hyperspectral/optical Earth observation primary spacecraft alongside commercial rideshare satellites.",
+      "payloads": [
+        {
+          "name": "EOS-N1",
+          "payload_type": "Earth Observation",
+          "mass_kg": 420.0,
+          "orbit": "Sun-Synchronous Orbit (505 km)",
+          "customer": "ISRO / NSIL",
+          "organization_slug": "isro",
+          "description": "Advanced Earth observation satellite optimized for coastal, environmental, and defense imagery."
+        },
+        {
+          "name": "Commercial Rideshare Cluster",
+          "payload_type": "SmallSat Rideshare",
+          "mass_kg": 185.0,
+          "orbit": "Sun-Synchronous Orbit (505 km)",
+          "customer": "NSIL Commercial Partners",
+          "organization_slug": "nsil",
+          "description": "Multi-customer auxiliary cubesat and microsatellite batch integrated via NSIL."
+        }
+      ]
+    },
+    {
+      "mission_code": "LVM3-M6",
+      "name": "LVM3-M6 Commercial Heavy-Lift",
+      "program": "Commercial",
+      "status": "Scheduled",
+      "organization_slug": "nsil",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "LEO",
+      "launch_date_utc": "2027-03-19T11:00:00Z",
+      "is_crewed": false,
+      "summary": "Dedicated NSIL commercial heavy-lift mission aboard LVM3 deploying next-generation direct-to-device LEO broadband communications spacecraft.",
+      "payloads": [
+        {
+          "name": "BlueBird Block-2 Communication Satellite",
+          "payload_type": "Communications Satellite",
+          "mass_kg": 6500.0,
+          "orbit": "Low Earth Orbit (520 km)",
+          "customer": "AST SpaceMobile via NSIL",
+          "organization_slug": "nsil",
+          "description": "Large phased-array commercial LEO telecommunications satellite launched on LVM3."
+        }
+      ]
+    },
+    {
+      "mission_code": "GAGANYAAN-TV-D2",
+      "name": "Gaganyaan Test Vehicle TV-D2",
+      "program": "Gaganyaan",
+      "status": "Upcoming",
+      "organization_slug": "isro",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "First Launch Pad (FLP)",
+      "orbit_type": "Suborbital",
+      "launch_date_utc": "2027-04-08T03:30:00Z",
+      "is_crewed": false,
+      "summary": "Second abort test flight validating the Gaganyaan Crew Escape System (CES) and Crew Module sea-recovery operations with the Indian Navy.",
+      "payloads": [
+        {
+          "name": "Gaganyaan Crew Module (TV-D2)",
+          "payload_type": "Crew Escape Demonstrator",
+          "mass_kg": 4520.0,
+          "orbit": "Suborbital Abort Trajectory",
+          "customer": "HSFC / ISRO",
+          "organization_slug": "isro",
+          "description": "Instrumented uncrewed Crew Module testing parachute deployment and splashdown recovery."
+        }
+      ]
+    },
+    {
+      "mission_code": "GAGANYAAN-G1",
+      "name": "Gaganyaan-G1 Uncrewed Orbital Flight",
+      "program": "Gaganyaan",
+      "status": "Upcoming",
+      "organization_slug": "isro",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "LEO",
+      "launch_date_utc": "2027-06-15T04:00:00Z",
+      "is_crewed": false,
+      "summary": "First uncrewed orbital qualification mission of human-rated HLVM3 carrying the Gaganyaan Orbital Module and Vyommitra humanoid robot.",
+      "payloads": [
+        {
+          "name": "Gaganyaan Orbital Module & Vyommitra",
+          "payload_type": "Human-Rated Orbital Spacecraft",
+          "mass_kg": 8200.0,
+          "orbit": "Low Earth Orbit (400 km)",
+          "customer": "HSFC / ISRO",
+          "organization_slug": "isro",
+          "description": "Crew Module + Service Module validating ECLSS life-support systems, avionics, re-entry thermal protection, and Vyommitra telemetry."
+        }
+      ]
+    },
+    {
+      "mission_code": "GAGANYAAN-H1",
+      "name": "Gaganyaan-H1 Crewed Orbital Mission",
+      "program": "Gaganyaan",
+      "status": "Scheduled",
+      "organization_slug": "isro",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "LEO",
+      "launch_date_utc": "2027-12-10T04:30:00Z",
+      "is_crewed": true,
+      "summary": "India's inaugural human spaceflight mission launching Gaganyatris into a 400 km circular Low Earth Orbit for a multi-day mission and splashdown return.",
+      "payloads": [
+        {
+          "name": "Gaganyaan Crewed Orbital Module (H1)",
+          "payload_type": "Crewed Spacecraft",
+          "mass_kg": 8200.0,
+          "orbit": "Low Earth Orbit (400 km)",
+          "customer": "HSFC / ISRO",
+          "organization_slug": "isro",
+          "description": "Pressurized crewed spacecraft supporting Indian astronauts with full environmental control and life support."
+        }
+      ]
+    },
+    {
+      "mission_code": "VIKRAM-1-MAIDEN",
+      "name": "Vikram-1 Orbital Maiden Flight",
+      "program": "Private Launches",
+      "status": "Upcoming",
+      "organization_slug": "skyroot-aerospace",
+      "vehicle_slug": "vikram-1",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "First Launch Pad (FLP)",
+      "orbit_type": "LEO",
+      "launch_date_utc": "2027-01-30T06:00:00Z",
+      "is_crewed": false,
+      "summary": "Skyroot Aerospace's inaugural orbital launch of Vikram-1, demonstrating multi-orbit small satellite deployment by an Indian private company.",
+      "payloads": [
+        {
+          "name": "Vikram-1 Commercial & University Payloads",
+          "payload_type": "SmallSat Demonstrator",
+          "mass_kg": 290.0,
+          "orbit": "Low Earth Orbit (500 km)",
+          "customer": "Skyroot Commercial Customers",
+          "organization_slug": "skyroot-aerospace",
+          "description": "Technology demonstration and small satellite payloads aboard India's first private orbital-class carbon-composite rocket."
+        }
+      ]
+    },
+    {
+      "mission_code": "CHANDRAYAAN-4",
+      "name": "Chandrayaan-4 Lunar Sample Return",
+      "program": "Chandrayaan",
+      "status": "Scheduled",
+      "organization_slug": "isro",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "Lunar",
+      "launch_date_utc": "2028-02-20T09:00:00Z",
+      "is_crewed": false,
+      "summary": "Multi-module lunar sample return architecture involving Ascender, Descender, Transfer, and Re-entry modules to bring lunar regolith back to Earth.",
+      "payloads": [
+        {
+          "name": "Chandrayaan-4 Lander & Ascender Stack",
+          "payload_type": "Lunar Sample Return",
+          "mass_kg": 5200.0,
+          "orbit": "Lunar South Polar Orbit",
+          "customer": "ISRO",
+          "organization_slug": "isro",
+          "description": "Robotic surface drilling, sample containment, lunar ascent, and orbital docking stack."
+        }
+      ]
+    },
+    {
+      "mission_code": "LVM3-M4/CHANDRAYAAN-3",
+      "name": "LVM3-M4 / Chandrayaan-3",
+      "program": "Chandrayaan",
+      "status": "Successful",
+      "organization_slug": "isro",
+      "vehicle_slug": "lvm3",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "Lunar",
+      "launch_date_utc": "2023-07-14T09:05:17Z",
+      "is_crewed": false,
+      "summary": "Historic mission achieving the world's first soft landing near the Lunar South Pole (Shiv Shakti Point) with Vikram lander and Pragyan rover.",
+      "payloads": [
+        {
+          "name": "Vikram Lander & Pragyan Rover",
+          "payload_type": "Lunar Lander & Rover",
+          "mass_kg": 3900.0,
+          "orbit": "Lunar South Pole Surface",
+          "customer": "ISRO",
+          "organization_slug": "isro",
+          "description": "Propulsion module, Vikram soft-lander, and 6-wheeled Pragyan rover with ChaSTE, ILSA, APXS, and LIBS payloads."
+        }
+      ]
+    },
+    {
+      "mission_code": "PSLV-C57/ADITYA-L1",
+      "name": "PSLV-C57 / Aditya-L1",
+      "program": "Science & Exploration",
+      "status": "Successful",
+      "organization_slug": "isro",
+      "vehicle_slug": "pslv",
+      "launch_site": "SDSC SHAR, Sriharikota",
+      "launch_pad": "Second Launch Pad (SLP)",
+      "orbit_type": "L1 Halo Orbit",
+      "launch_date_utc": "2023-09-02T06:20:00Z",
+      "is_crewed": false,
+      "summary": "India's first space-based solar observatory placed in a halo orbit around the Sun-Earth Lagrange Point L1.",
+      "payloads": [
+        {
+          "name": "Aditya-L1 Observatory",
+          "payload_type": "Solar Observatory",
+          "mass_kg": 1480.7,
+          "orbit": "Sun-Earth L1 Halo Orbit",
+          "customer": "ISRO",
+          "organization_slug": "isro",
+          "description": "Seven scientific payloads including VELC, SUIT, SoLEXS, HEL1OS, ASPEX, PAPA, and Magnetometer."
+        }
+      ]
+    },
+    {
+      "mission_code": "AGNIBAAN-SORTED-01",
+      "name": "Agnibaan SOrTeD Suborbital Flight",
+      "program": "Private Launches",
+      "status": "Successful",
+      "organization_slug": "agnikul-cosmos",
+      "vehicle_slug": "agnibaan",
+      "launch_site": "Dhanush Launchpad, SDSC SHAR",
+      "launch_pad": "ALP-01 (Private Launchpad)",
+      "orbit_type": "Suborbital",
+      "launch_date_utc": "2024-05-30T01:45:00Z",
+      "is_crewed": false,
+      "summary": "World's first flight powered by a single-piece 3D-printed semi-cryogenic rocket engine (Agnilet) and first launch from a private launchpad in India.",
+      "payloads": [
+        {
+          "name": "Agnibaan SOrTeD Avionics Demonstrator",
+          "payload_type": "Technology Demonstrator",
+          "mass_kg": 580.0,
+          "orbit": "Suborbital Controlled Trajectory",
+          "customer": "Agnikul Cosmos",
+          "organization_slug": "agnikul-cosmos",
+          "description": "Validated autopilot, gimballed thrust vector control, and semi-cryogenic propulsion in flight."
+        }
+      ]
+    }
+  ],
+  "isro_centres": [
+    {
+      "code": "VSSC",
+      "name": "Vikram Sarabhai Space Centre",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "latitude": 8.5314,
+      "longitude": 76.8679,
+      "specialization": "Launch Vehicle Design, Solid Propulsion & Avionics",
+      "established_year": 1963,
+      "website": "https://www.vssc.gov.in",
+      "description": "ISRO's lead centre for designing and developing launch vehicles including PSLV, GSLV, LVM3, SSLV, and the Gaganyaan Crew Escape System."
+    },
+    {
+      "code": "URSC",
+      "name": "U R Rao Satellite Centre",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "latitude": 12.9598,
+      "longitude": 77.6647,
+      "specialization": "Spacecraft Design, Assembly & Integration",
+      "established_year": 1972,
+      "website": "https://www.ursc.gov.in",
+      "description": "Nodal centre for conceptualizing, designing, fabricating, and testing Indian communication, navigation, remote sensing, and planetary satellites."
+    },
+    {
+      "code": "SDSC SHAR",
+      "name": "Satish Dhawan Space Centre",
+      "city": "Sriharikota",
+      "state": "Andhra Pradesh",
+      "latitude": 13.7199,
+      "longitude": 80.2304,
+      "specialization": "Spaceport, Launch Operations & Solid Propellant Processing",
+      "established_year": 1971,
+      "website": "https://www.shar.gov.in",
+      "description": "India's primary orbital spaceport operating First and Second Launch Pads (FLP/SLP), vehicle integration buildings, and downrange tracking."
+    },
+    {
+      "code": "SAC",
+      "name": "Space Applications Centre",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "latitude": 23.0247,
+      "longitude": 72.5177,
+      "specialization": "Optical/Microwave Payloads, Communications & Remote Sensing",
+      "established_year": 1972,
+      "website": "https://www.sac.gov.in",
+      "description": "Develops spaceborne transponders, high-resolution optical cameras, SAR radars, and NavIC navigation payloads for Indian spacecraft."
+    },
+    {
+      "code": "ISTRAC",
+      "name": "ISRO Telemetry, Tracking and Command Network",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "latitude": 13.0342,
+      "longitude": 77.5159,
+      "specialization": "Mission Control, Deep Space Tracking & TT&C Ground Stations",
+      "established_year": 1976,
+      "website": "https://www.istrac.gov.in",
+      "description": "Operates MOX Mission Operations Complex and the Indian Deep Space Network (IDSN) at Byalalu supporting Chandrayaan, Aditya-L1, and LEO satellites."
+    }
+  ]
+}
